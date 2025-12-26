@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maram Venkata Tejaswini | Portfolio</title>
+
+  <!-- CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+      background: white;
+      margin: 15px;
+      border-radius: 5px;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+    }
+
+    button {
+      background: #2c3e50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tejaswini Reddy Maram</h1>
+    <p>Computer Science & Engineering Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science Engineering student interested in Web Development, Python, and Android applications.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python</li>
+      <li>SQL & DBMS</li>
+      <li>Android Development (Basics)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><b>Secure Online Voting System</b></p>
+    <p>Generating QR Code</p>
+<p>Drowsiness Detection using Python</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tejaswini Reddy Maram</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.querySelector("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Thank you for contacting me!");
+    });
+  </script>
+
+</body>
+</html>
